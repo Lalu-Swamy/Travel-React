@@ -1,0 +1,79 @@
+.hero{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.hero img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hero-about img{
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+}
+.hero-contact img{
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+}
+.hero-service img{
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%);
+    gap: 2rem;
+    text-shadow:0 0 9px #000000, 0 0 3px hsl(120, 4%, 5%);
+
+}
+.hero-text h1{
+    font-size: 3rem;
+    font-weight: 800;
+    color:lightyellow;
+    text-align: center;
+}
+.hero-text p{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: lightyellow;
+}
+.show{
+   
+    text-decoration: none;
+    padding: 0.5rem 1.6rem;
+    background: lightyellow;
+    border-radius: 6px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: black;
+    letter-spacing: 1px;
+    top: 7rem;
+}
+@media screen and (max-width:750px){
+    .hero img{
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+    }
+    .hero-text h1{
+        text-align: center;
+    }
+    .hero-text p{
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    .show{
+        padding: 0.3rem 1.3rem;
+    }
+}

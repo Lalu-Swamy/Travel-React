@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Righteous&display=swap');
+.destination{
+    margin: 4rem 6rem;
+}
+.destination h1{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.destination p{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    
+}
+.des-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+.des-2{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+.des-text{
+    width: 45%;
+    text-align: start;
+    font-size: 1.2rem;
+}
+.des-text h2{
+    padding-bottom: 1rem;
+}
+.des-text p{
+    text-align: start;
+    font-size: 1rem;
+    margin-top: 0.3rem;
+    font-family: 'PT Sans', sans-serif;
+}
+.des-img{
+    position: relative;
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    z-index: -99;
+}
+.des-img img{
+    width: 49%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: -1px 1px 60px -10px rgba(0,0,0,0.2);
+}
+.des-img img:nth-child(2){
+    position: absolute;
+    top: 4em;
+    right: 0;
+}
+@media screen and (max-width:750px){
+    .destination{
+        margin: 4rem 2rem;
+    }
+    .des-1{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 2.5rem;
+    }
+    .des-2{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 3rem;
+    }
+    .des-img{
+        margin-bottom: 6rem;
+        width: 100%;
+
+    }
+    .des-img img{
+        height: 250px;
+    }
+    .des-text{
+        width: 100%;
+    }
+    .des-text p{
+        font-size: 1.1rem;
+    }
+}
