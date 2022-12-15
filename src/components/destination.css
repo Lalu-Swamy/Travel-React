@@ -26,6 +26,20 @@
     justify-content: space-between;
     margin-top: 4rem;
 }
+.des-3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+.des-4{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
 .des-text{
     width: 45%;
     text-align: start;
