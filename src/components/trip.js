@@ -1,5 +1,8 @@
 import Tripdata from "./tripdata"
 import "./trip.css"
+import maldives from '../Assets/maldives.jpg'
+import pyramids from '../Assets/pyramids.jpg'
+import burj from '../Assets/burj.jpg'
 
 export default function Trip(){
     return(
@@ -8,19 +11,19 @@ export default function Trip(){
             <p>You can find unique destinations using Google Maps</p>
             <div className="trip-card">
                 <Tripdata
-                    cardimg="https://r4.wallpaperflare.com/wallpaper/797/146/421/landscape-bora-bora-wallpaper-79b0682d01daed5b6667981f204166ed.jpg"
+                    cardimg={maldives}
                     heading="Maldives"
                     para="
                     The Maldives is a nation of islands in the Indian Ocean, that spans across the equator. The country is comprised of 1192 islands that stretch along a length of 871 kilometers. While the country covers an area of approximately 90,000 square kilometers, only 298 square kilometers of that is dry land. The islands are grouped into a double chain of 26 atolls.
                     "
                 />
                 <Tripdata
-                    cardimg="https://r4.wallpaperflare.com/wallpaper/214/673/146/egypt-pyramid-filter-pyramids-of-giza-wallpaper-0960f89da10a7dbb2637389f00b126cd.jpg"
+                    cardimg={pyramids}
                     heading="Pyramids of Giza"
                     para="The Great Pyramid of Giza is the biggest Egyptian pyramid and the tomb of Fourth Dynasty pharaoh Khufu. Built in the early 26th century BC during a period of around 27 years, the pyramid is the oldest of the Seven Wonders of the Ancient World, and the only one to remain largely intact."
                 />
                 <Tripdata
-                    cardimg="https://r4.wallpaperflare.com/wallpaper/368/492/901/burj-khalifa-dubai-city-cityscape-wallpaper-39c0a86dd19a3d1b16f7e80f0081268d.jpg"
+                    cardimg={burj}
                     heading="Burj Khalifa"
                     para="The Burj Khalifa is the tallest building in the world and a global icon.
 

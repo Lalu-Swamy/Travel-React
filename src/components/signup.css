@@ -1,14 +1,17 @@
-    .form{
-        margin: 10rem 6rem;
+    .form-container{
+        margin: 5rem 6rem;
+        height: 90vh;
     }
     .heading-div h1{
         text-align: center;
     }
-    .form form{
+    .form-container form{
         display: flex;
         flex-direction: column;
-        width:50%;
-        margin:auto;
+        justify-content: space-evenly;
+        height: 90vh;
+        
+        
     }
     .label{
         display: block;
@@ -41,7 +44,7 @@
         color: white;
     }
     
-    .messages{
+    /* .messages{
         display: flex;
         justify-content: center;
     }
@@ -60,12 +63,12 @@
     width: fit-content;
     height: 50px;
     padding: 5px;
-    }
+    } */
 @media screen and (max-width:750px) {
-    .form{
+    .form-container{
         margin: 8.5rem 2rem
     }
-    .form form{
+    .form{
         width:90%;
     }
 

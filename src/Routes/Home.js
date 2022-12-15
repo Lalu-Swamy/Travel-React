@@ -3,6 +3,7 @@ import Hero from "../components/hero";
 import Destination from "../components/destination";
 import Footer from "../components/footer"
 import Trip from "../components/trip";
+import homepic from '../Assets/homepic.jpg'
 
 export default function Home(){
     return(
@@ -11,7 +12,7 @@ export default function Home(){
             <Hero
                 cName="hero"
                 title="A Journey is about finding your story"
-                heroimg="https://r4.wallpaperflare.com/wallpaper/15/962/457/van-beach-minimalism-minimalist-wallpaper-83acff6589c320e7dce45bd294569bdf.jpg"
+                heroimg={homepic}
                 text="Find your Story"
         
                 url="/"

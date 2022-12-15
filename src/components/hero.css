@@ -60,7 +60,7 @@
     letter-spacing: 1px;
     top: 7rem;
 }
-@media screen and (max-width:750px){
+@media screen and (max-width:555px){
     .hero img{
         width: 100%;
         height: 100vh;
@@ -68,6 +68,7 @@
     }
     .hero-text h1{
         text-align: center;
+        font-size: 2.5rem;
     }
     .hero-text p{
         font-size: 1.1rem;

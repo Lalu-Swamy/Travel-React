@@ -1,7 +1,7 @@
 .footer{
     background: rgb(29, 29, 29);
     padding: 4rem 4rem;
-    color: white; 
+    color: white;
 }
 .upper{
     display: flex;
@@ -34,9 +34,7 @@
     color: lightblue;
     padding-bottom: .4rem;
 }
-@media screen and (max-width:750px){
-    .footer{
-    }
+@media screen and (max-width:666px){
     .upper{
         display: flex;
         flex-direction: column;
@@ -54,10 +52,12 @@
         padding-left: 1rem;
     }
     .lower{
-        padding-left: 3.5rem;
+        
     }
     .lower div{
-        width: 40%;
+        width: 45%;
+        align-self: center;
+        padding-left: 2.5rem;
 
     }
 }
