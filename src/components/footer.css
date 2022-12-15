@@ -1,6 +1,6 @@
 .footer{
     background: rgb(29, 29, 29);
-    padding: 4rem 4rem;
+    padding: 2rem 2rem;
     color: white;
 }
 .upper{
@@ -19,7 +19,7 @@
     text-align: start;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding-top: 2rem;
+    margin-top: 2rem;
 }
 .lower div{
     display: flex;
@@ -52,13 +52,19 @@
         padding-left: 1rem;
     }
     .lower{
-        
+        display:grid;
+        width: 100%;
+        grid-template-columns: repeat(2,40%);
+        position: relative;
+        margin-top: 2rem;
+        justify-content: space-around;
+        justify-content: end;
     }
     .lower div{
-        width: 45%;
-        align-self: center;
-        padding-left: 2.5rem;
-
+        text-align: justify;
+        height: 180px;
+        
+        
     }
 }
 
