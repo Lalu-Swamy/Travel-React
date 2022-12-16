@@ -1,15 +1,32 @@
 {
   "files": {
-    "main.css": "/Travel-React/static/css/main.0d9bf7c4.css",
-    "main.js": "/Travel-React/static/js/main.d5a73f3a.js",
+    "main.css": "/Travel-React/static/css/main.81fee760.css",
+    "main.js": "/Travel-React/static/js/main.034076eb.js",
     "static/js/787.17a674f6.chunk.js": "/Travel-React/static/js/787.17a674f6.chunk.js",
+    "static/media/aboutpic.jpg": "/Travel-React/static/media/aboutpic.c14039021806aa8c72b7.jpg",
+    "static/media/paris2.jpg": "/Travel-React/static/media/paris2.44669bf7356c31b8f42d.jpg",
+    "static/media/tajmahal.jpg": "/Travel-React/static/media/tajmahal.1c1a99ae3e51068c1fdd.jpg",
+    "static/media/homepic.jpg": "/Travel-React/static/media/homepic.f76a451b378cd14db028.jpg",
+    "static/media/tajj.jpg": "/Travel-React/static/media/tajj.7e4be185e08db84aaed2.jpg",
+    "static/media/paris1.jpg": "/Travel-React/static/media/paris1.d680542d9ff2be9e2a0d.jpg",
+    "static/media/kyoto.jpg": "/Travel-React/static/media/kyoto.cdbac77d9ad4d4443cb8.jpg",
+    "static/media/sigiriya.jpg": "/Travel-React/static/media/sigiriya.47adce2d121141ab05f5.jpg",
+    "static/media/contactpic.jpg": "/Travel-React/static/media/contactpic.f5a89cde547525f61c81.jpg",
+    "static/media/burj.jpg": "/Travel-React/static/media/burj.82893ef58d833f668008.jpg",
+    "static/media/everest.jpg": "/Travel-React/static/media/everest.bc01344e11500a95589a.jpg",
+    "static/media/maldives.jpg": "/Travel-React/static/media/maldives.6d5595f071be62b89f10.jpg",
+    "static/media/raan.jpg": "/Travel-React/static/media/raan.a1ea3c531df4eee3c3fd.jpg",
+    "static/media/pyramids.jpg": "/Travel-React/static/media/pyramids.3a73f2eff9ee7a607225.jpg",
+    "static/media/servicepic.jpg": "/Travel-React/static/media/servicepic.01d7163807128b9d0653.jpg",
+    "static/media/greatwallofchina.jpg": "/Travel-React/static/media/greatwallofchina.0db75fb56e9f2f017350.jpg",
+    "static/media/Raanofkutch.jpg": "/Travel-React/static/media/Raanofkutch.161cbe159d7f1d082edb.jpg",
     "index.html": "/Travel-React/index.html",
-    "main.0d9bf7c4.css.map": "/Travel-React/static/css/main.0d9bf7c4.css.map",
-    "main.d5a73f3a.js.map": "/Travel-React/static/js/main.d5a73f3a.js.map",
+    "main.81fee760.css.map": "/Travel-React/static/css/main.81fee760.css.map",
+    "main.034076eb.js.map": "/Travel-React/static/js/main.034076eb.js.map",
     "787.17a674f6.chunk.js.map": "/Travel-React/static/js/787.17a674f6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0d9bf7c4.css",
-    "static/js/main.d5a73f3a.js"
+    "static/css/main.81fee760.css",
+    "static/js/main.034076eb.js"
   ]
 }
