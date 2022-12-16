@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Travel-React/static/css/main.81fee760.css",
+    "main.css": "/Travel-React/static/css/main.b7af7976.css",
     "main.js": "/Travel-React/static/js/main.034076eb.js",
     "static/js/787.17a674f6.chunk.js": "/Travel-React/static/js/787.17a674f6.chunk.js",
     "static/media/aboutpic.jpg": "/Travel-React/static/media/aboutpic.c14039021806aa8c72b7.jpg",
@@ -21,12 +21,12 @@
     "static/media/greatwallofchina.jpg": "/Travel-React/static/media/greatwallofchina.0db75fb56e9f2f017350.jpg",
     "static/media/Raanofkutch.jpg": "/Travel-React/static/media/Raanofkutch.161cbe159d7f1d082edb.jpg",
     "index.html": "/Travel-React/index.html",
-    "main.81fee760.css.map": "/Travel-React/static/css/main.81fee760.css.map",
+    "main.b7af7976.css.map": "/Travel-React/static/css/main.b7af7976.css.map",
     "main.034076eb.js.map": "/Travel-React/static/js/main.034076eb.js.map",
     "787.17a674f6.chunk.js.map": "/Travel-React/static/js/787.17a674f6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.81fee760.css",
+    "static/css/main.b7af7976.css",
     "static/js/main.034076eb.js"
   ]
 }
