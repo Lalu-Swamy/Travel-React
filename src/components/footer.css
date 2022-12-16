@@ -34,7 +34,7 @@
     color: lightblue;
     padding-bottom: .4rem;
 }
-@media screen and (max-width:666px){
+@media screen and (max-width:855px){
     .upper{
         display: flex;
         flex-direction: column;
