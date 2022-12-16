@@ -16,7 +16,7 @@
 }
 .lower{
     display: flex;
-    text-align: start;
+    text-align: center;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 2rem;
@@ -57,13 +57,8 @@
         grid-template-columns: repeat(2,40%);
         position: relative;
         margin-top: 2rem;
-        justify-content:center;
-    }
-    .lower div{
-        text-align: justify;
-        height: 180px;
-        
-        
+        /* justify-content: space-around; */
+        text-align: center;
     }
 }
 

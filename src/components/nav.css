@@ -86,10 +86,7 @@
     .nav-icon{
         display: block;
         cursor: pointer;
-        transition: transform 1s;
-    }
-    .nav-icon:hover{
-        transform: rotate(90deg);
+        font-size: 1.3rem;
     }
     .nav-menu-active{
         display: none;
