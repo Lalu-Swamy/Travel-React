@@ -57,8 +57,7 @@
         grid-template-columns: repeat(2,40%);
         position: relative;
         margin-top: 2rem;
-        justify-content: space-around;
-        justify-content: end;
+        justify-content:center;
     }
     .lower div{
         text-align: justify;
